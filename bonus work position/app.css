@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background-color: darkblue;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.relative-container {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.box-one {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  background-color: aquamarine;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-two {
+  width: 350px;
+  height: 100px;
+  position: absolute;
+  left: 300px;
+  background-color: white;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-three {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 650px;
+  background-color: yellow;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-four {
+  width: 100px;
+  height: 250px;
+  position: absolute;
+  top: 100px;
+  background-color: white;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-five {
+  width: 100px;
+  height: 400px;
+  position: absolute;
+  top: 350px;
+  background-color: aquamarine;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-six {
+  width: 100px;
+  height: 250px;
+  position: absolute;
+  top: 750px;
+  background-color: yellow;
+  border-right: 10px solid black;
+}
+.box-seven {
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: red;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-eight {
+  width: 300px;
+  height: 275px;
+  background-color: orange;
+  position: absolute;
+  top: 100px;
+  left: 650px;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-nine {
+  width: 150px;
+  height: 275px;
+  position: absolute;
+  background-color: gray;
+  top: 375px;
+  left: 650px;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-ten {
+  width: 150px;
+  height: 275px;
+  position: absolute;
+  background-color: white;
+  top: 375px;
+  left: 800px;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-eleven {
+  width: 50px;
+  height: 768px;
+  position: absolute;
+  background-color: white;
+  border-bottom: 10px solid black;
+  left: 950px;
+}
+
+.box-twelve {
+  background-color: brown;
+  position: absolute;
+  height: 275px;
+  width: 275px;
+  left: 100px;
+  top: 650px;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-thirteen {
+  width: 275px;
+  height: 125px;
+  background-color: gray;
+  position: absolute;
+  left: 375px;
+  top: 650px;
+  border-right: 10px solid black;
+}
+.box-fourteen {
+  width: 275px;
+  height: 125px;
+  background-color: white;
+  position: absolute;
+  left: 375px;
+  top: 759px;
+  border-top: 10px solid black;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-fifteen {
+  width: 300px;
+  height: 118px;
+  position: absolute;
+  background-color: white;
+  top: 650px;
+  left: 650px;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.box-sixteen {
+  width: 275px;
+  height: 125px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 875px;
+  border-right: 10px solid black;
+  border-top: 10px solid black;
+}
+.box-seventeen {
+  width: 275px;
+  height: 62.5px;
+  background-color: black;
+  position: absolute;
+  left: 375px;
+  top: 884px;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+}
+.box-eighteen {
+  width: 575px;
+  height: 53.5px;
+  position: absolute;
+  background-color: white;
+  left: 375px;
+  top: 946px;
+  border-right: 10px solid black;
+}
+.box-nineteen {
+  width: 300px;
+  height: 179px;
+  left: 650px;
+  top: 768px;
+  position: absolute;
+  background-color: blue;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+}
