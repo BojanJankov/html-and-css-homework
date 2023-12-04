@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <script
+      src="https://kit.fontawesome.com/d32ad62e17.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/d32ad62e17.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Catalog</title>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <h1>Mobile Store</h1>
+      </div>
+      <nav class="navbar">
+        <div class="nav-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="catalog-main">
+      <section class="catalog-container">
+        <form class="form-container" action="#">
+          <div class="responsive-menu-form"><i class="fa-solid fa-bars"></i></div>
+          <div class="brand-list">
+            <label for="mobilephones">Choose a brand</label>
+            <select name="mobilephones" id="mobilephones">
+              <option value="choose" disabled selected>Choose here:</option>
+              <option value="apple">Apple</option>
+              <option value="samsung">Samsung</option>
+              <option value="xaomi">Xaomi</option>
+              <option value="huawei">Huawei</option>
+              <option value="lg">LG</option>
+              <option value="google">Google phones</option>
+            </select>
+          </div>
+          <div class="filter-list">
+            <label for="filter"></label>
+            <select name="filter" id="filter">
+              <option value="newest-first">Newest first</option>
+              <option value="oldest-first">Oldest first</option>
+              <option value="expensive">Most expensive first</option>
+              <option value="cheapest">The cheapest first</option>
+            </select>
+          </div>
+          <div class="slider-price">
+            <label for="range">Price</label>
+            <div class="minprice-range">
+              <p>0$</p>
+            </div>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+            <div class="maxprice-range">
+              <p>2000$</p>
+            </div>
+          </div>
+          <div class="search-box">
+            <input type="text" placeholder="Search.." />
+          </div>
+        </form>
+        <div class="products-container">
+          <a href="product-page.html">
+            <div class="product-box">
+              <div class="image-iphonepromax">
+                <img
+                  src="../images/Apple-iPhone-15-Pro-Lineup-PNG.png"
+                  alt="iphone 15 pro max image"
+                  height="130px"
+                />
+              </div>
+              <div class="iphonepromax-name">
+                <h4>Iphone 15 Pro Max</h4>
+              </div>
+              <div class="iphonepromax-text">
+                <p>The latest iPhone phone is here.</p>
+              </div>
+              <div class="iphonepromax-price">
+                <p>Price: <small>1099$</small></p>
+                <div class="iphonepromax-button">
+                  <button type="submit">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="product-page.html">
+            <div class="product-box">
+              <div class="image-iphoneplus">
+                <img
+                  src="../images/Apple-iPhone-15-and-iPhone-15-Plus.png"
+                  alt="iphone 15 plus image"
+                  height="130px"
+                />
+              </div>
+              <div class="iphoneplus-name">
+                <h4>Iphone 15 Plus</h4>
+              </div>
+              <div class="iphoneplus-text">
+                <p>The latest iPhone Plus version with best battery.</p>
+              </div>
+              <div class="iphoneplus-price">
+                <p>Price: <small>899$</small></p>
+                <div class="iphoneplus-button">
+                  <button type="submit">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="product-page.html">
+            <div class="product-box">
+              <div class="image-pixel">
+                <img
+                  src="../images/pixel-8-and-pixel-8-pro.png"
+                  alt="pixel 8 image"
+                  height="130px"
+                />
+              </div>
+              <div class="pixel-name">
+                <h4>Pixel 8</h4>
+              </div>
+              <div class="pixel-text">
+                <p>The newest Google phone with crazy specification.</p>
+              </div>
+              <div class="pixel-price">
+                <p>Price: <small>699$</small></p>
+                <div class="pixel-button">
+                  <button type="submit">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="product-page.html">
+            <div class="product-box">
+              <div class="image-samsung">
+                <img
+                  src="../images/—Pngtree—samsung galaxy s20 mockup_5494926.png"
+                  alt="samsung s20 image"
+                  height="130px"
+                />
+              </div>
+              <div class="samsung-name">
+                <h4>Samsung S20</h4>
+              </div>
+              <div class="samsung-text">
+                <p>One of the best Samsung S series phones.</p>
+              </div>
+              <div class="samsung-price">
+                <p>Price: <small>599$</small></p>
+                <div class="samsung-button">
+                  <button type="submit">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="product-page.html">
+            <div class="product-box">
+              <div class="image-redmi">
+                <img
+                  src="../images/redmi note 11s.png"
+                  alt="redmi note 11s image"
+                  height="130px"
+                />
+              </div>
+              <div class="redmi-name">
+                <h4>Redmi Note 11s</h4>
+              </div>
+              <div class="redmi-text">
+                <p>The S model from Redmi Note 11 series.</p>
+              </div>
+              <div class="redmi-price">
+                <p>Price: <small>799$</small></p>
+                <div class="redmi-button">
+                  <button type="submit">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="product-page.html">
+          <div class="product-box">
+            <div class="image-huawei">
+              <img
+                src="../images/huawei p20.png"
+                alt="huawei p20 image"
+                height="130px"
+              />
+            </div>
+            <div class="huawei-name">
+              <h4>Huawei P20</h4>
+            </div>
+            <div class="huawei-text">
+              <p>Model from Huawei P series with realy good design.</p>
+            </div>
+            <div class="huawei-price">
+              <p>Price: <small>499$</small></p>
+              <div class="huawei-button">
+                <button type="submit">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-copy-right">
+        <small>©️ Bojan Jankov - Mobile Store</small>
+      </div>
+      <nav class="footernav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
